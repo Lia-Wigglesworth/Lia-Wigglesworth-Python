@@ -5,7 +5,6 @@ print("|    Name : Lia Wigglesworth                     |")
 print("|    Version : 01                                |")
 print("|                                                |") 
 print(" ------------------------------------------------")
-for x in range(500):
-  if x == 0:
-      continue
+for x in range(1, 500):
+
   print(x)
