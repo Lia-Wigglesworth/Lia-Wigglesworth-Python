@@ -93,37 +93,37 @@ os.system('cls')
 main_Function()
 
 while x != "x":
-    while x == "1":
+    if x == "1":
         start_Function()
         my_Function1()
         end_Function()
         main_Function()
-    while x == "2":
+    if x == "2":
         start_Function()
         my_Function2()
         end_Function()
         main_Function()
-    while x == "3":
+    if x == "3":
         start_Function()
         my_Function3()
         end_Function()
         main_Function()
-    while x == "4":
+    if x == "4":
         start_Function()
         my_Function4()
         end_Function()
         main_Function()
-    while x == "5":
+    if x == "5":
         start_Function()
         my_Function5()
         end_Function()
         main_Function()
-    while x == "6":
+    if x == "6":
         start_Function()
         my_Function6()
         end_Function()
         main_Function()
-    while x != "1" and x != "2" and x != "3" and x != "4" and x != "5" and x != "6" and x != "x":
+    if x != "1" and x != "2" and x != "3" and x != "4" and x != "5" and x != "6" and x != "x":
             start_Function()
             other_Function()
             end_Function()
