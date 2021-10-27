@@ -12,6 +12,7 @@ while subjectName != "IST":
     if subjectName == "IST":
         break
 print()
+print()
 print("Congratulations!!")
 print()
 print()
