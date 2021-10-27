@@ -7,7 +7,11 @@ print("|                                                |")
 print(" ------------------------------------------------")
 subjectName = input("What is the name of this subject ")
 while subjectName != "IST":
-    input("Not Correct - try again")
-    break
-else:
-    print("Congratulations!!")
+    print("Not Correct - try again")
+    subjectName = input("What is the name of this subject ")
+    if subjectName == "IST":
+        break
+print()
+print("Congratulations!!")
+print()
+print()
