@@ -1,5 +1,5 @@
 # functions
-def main_Function():
+def main_Function(): # the main function into which the variable can be entered 
     print(" ------------------------------------------------")
     print("|                                                |")
     print("|    07Menu                                      |")
@@ -35,6 +35,7 @@ def end_Function():
     input("Press Enter to continue")
     os.system('cls')
 
+#the functions for the different options
 def my_Function1():
     print("Hello World")
 
