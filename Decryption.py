@@ -51,14 +51,14 @@ def check_Words(): # identifies specific English words
             words_Indentified = words_Indentified + 1
 
 # main section of code
-with open("C:\\Users\\pc\\Documents\\Y9\\9IST3\\Python Assessment Files\\encrypted_File.txt") as encrypted_File: # reads the file the encrypted text is contained in
+with open("C:\\Users\\pc\\Documents\\Y9\\9IST3\\Python Assessment Files\\Text_Files\\encrypted_File.txt") as encrypted_File: # reads the file the encrypted text is contained in
     characters = encrypted_File.read()
 my_Val = 1
 my_Function()
 form_Words()
 
 #checks for key words
-with open("C:\\Users\\pc\\Documents\\Y9\\9IST3\\Python Assessment Files\\word_List.txt") as dictionary: # reads the file the encrypted text is contained in
+with open("C:\\Users\\pc\\Documents\\Y9\\9IST3\\Python Assessment Files\\Text_Files\\word_List.txt") as dictionary: # reads the file the encrypted text is contained in
     for line in dictionary:
         word_List.extend(line)
         a = 0 
@@ -78,7 +78,11 @@ while words_Indentified < 1:
     form_Words()
     check_Words()
     if my_Val > 5:
+        print()
         print("No keywords were found")
+        print()
         import sys
         sys.exit()
+print()
 print(*decrypted_Code)
+print()
