@@ -97,9 +97,9 @@ while printed_Letters.count("_") != 0: # while there are still dashes in printed
 # If all letters have been guessed 
 print()
 print("~ Congratulations ~")
-print(" O   O ")
-print("/|\\ /|\\")
-print(" /\\ /\\")
+print("       O   O ")
+print("      /|\\ /|\\")
+print("       /\\ /\\")
 print()
 print("The word is ", *printed_Letters, sep = '')
 print()

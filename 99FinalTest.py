@@ -348,9 +348,9 @@ def my_Function13():
     # If all letters have been guessed 
     print()
     print("~ Congratulations ~")
-    print(" O   O ")
-    print("/|\\ /|\\")
-    print(" /\\ /\\")
+    print("       O   O ")
+    print("      /|\\ /|\\")
+    print("       /\\ /\\")
     print()
     print("The word is ", *printed_Letters, sep = '')
     print()
